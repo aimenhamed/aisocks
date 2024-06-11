@@ -1,0 +1,18 @@
+{
+  "name": "aisocks",
+  "module": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run --watch src/index.ts",
+    "client": "bun run --watch src/client/client.ts"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/bun": "latest"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^0.0.24",
+    "ai": "^3.1.30",
+    "pino": "^9.1.0"
+  }
+}
